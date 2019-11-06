@@ -12,12 +12,12 @@
 #include "simAVRHeader.h"
 #endif
 
-#define MAX_LIGHT 0x3FC
-#define MIN_LIGHT 0x07C
+const short MAX_LIGHT = 0x3FC;
+const short MIN_LIGHT = 0x07C;
 
 void ADC_init() {
     ADCSRA |= (1 << ADEN) | (1 << ADSC) | (1 << ADATE);
-    // ADEN: setting this bit eneables analog-to-digital conversion.
+    // ADEN: setting this bit enables analog-to-digital conversion.
     // ADSC: setting this bit starts the first conversion
     // ADATE: setting this bit enables auto-triggering. SInce we are
     //        in Free Running Mode, a new conversion will trigger whenever
@@ -32,8 +32,6 @@ int main(void) {
 
     unsigned short potential = 0x00;
     unsigned char tmpB = 0x00;
-
-
 
     /* Insert your solution below */
     while (1) {
