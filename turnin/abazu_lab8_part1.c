@@ -1,11 +1,13 @@
 /*	Author: abazu001
- *  Partner(s) Name: 
+ *  Partner(s) Name:
  *	Lab Section:
  *	Assignment: Lab #8  Exercise #1
  *	Exercise Description: [optional - include for your own benefit]
  *
  *	I acknowledge all content contained herein, excluding template or example
  *	code, is my own original work.
+ *  Demo Link:
+ *  https://drive.google.com/file/d/10wL9uwFqhS9gOMJT0VvMV1MtFuFaCkV0/view?usp=sharing
  */
 #include <avr/io.h>
 #ifdef _SIMULATE_
@@ -32,7 +34,7 @@ int main(void) {
     unsigned short potential = 0x00;
     unsigned char tmpB = 0x00;
     unsigned char tmpD = 0x00;
-        
+
 
     /* Insert your solution below */
     while (1) {
