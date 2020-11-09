@@ -9,13 +9,15 @@
  *
  *	I acknowledge all content contained herein, excluding template or example
  *	code, is my own original work.
+ *  Demo Link:
+ *  https://drive.google.com/file/d/1CyGrCGEDCnzz_Zjo9EtKRk7L-WNxu4VI/view?usp=sharing
  */
 #include <avr/io.h>
 #ifdef _SIMULATE_
 #include "simAVRHeader.h"
 #endif
 
-const short MAX_LIGHT = 0x3FC;
+const short MAX_LIGHT = 0x190;
 //const short MIN_LIGHT = 0x07C;    // Never actually used
 
 

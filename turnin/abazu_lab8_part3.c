@@ -6,13 +6,15 @@
  *
  *	I acknowledge all content contained herein, excluding template or example
  *	code, is my own original work.
+ *  Demo Link:
+ *  https://drive.google.com/file/d/154BBmJsXagaa299kMPO4vWX01Zfv66h-/view?usp=sharing
  */
 #include <avr/io.h>
 #ifdef _SIMULATE_
 #include "simAVRHeader.h"
 #endif
 
-#define MAX_LIGHT 0x3FC
+#define MAX_LIGHT 0x190
 #define MIN_LIGHT 0x07C
 
 void ADC_init() {
